@@ -1,0 +1,41 @@
+
+.register input{
+  
+    border-style: none;
+    box-sizing: border-box;
+    padding: 1rem ;
+   
+    background-color: #F5A962;
+    margin: 1rem;
+    border-radius: 5px;
+   }
+   .register input:hover{
+       background-color: #f3c395;
+   }
+   .register input::placeholder{
+       color: black;
+   }
+   
+   .register {
+       position: absolute;
+       top: 50%;
+       right: 0%;
+       transform: translate(0,-50%);
+       margin-left: 1rem;
+       display: inline-block;
+       width: 40%;
+       padding-left: 2rem;
+       margin-right: 2rem;
+       background-color: #3C8DAD;
+       border-radius: 25px;
+
+       
+   }
+   .register form{
+       background-color: #3C8DAD;
+       border-radius: 25px;
+   }
+   .register h1{
+       background-color: #3C8DAD;
+       color: #F5A962;
+   }
