@@ -38,7 +38,7 @@ const Register = () => {
       console.log(response )
      return response.json()
     }).then(data =>{
-      setFetchRes(data.message )
+      setFetchRes(data )
     })
   }
 
